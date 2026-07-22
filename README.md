@@ -55,7 +55,7 @@ npm test
    // build `visible` from todos + filter, then render <TodoList todos={visible} … />
    ```
 
-## How the routing works (it's in the given `App.jsx` - make sure you understand it)
+## How the routing works (in `App.jsx`)
 
 - `main.jsx` wraps everything in `<BrowserRouter>` (routing needs a router at the top).
 - The filters are **`<NavLink to="/active">`** etc. - like `<a>`, but they navigate client-side (no reload) and auto-get an `active` class for styling.
